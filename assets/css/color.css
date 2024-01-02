@@ -1,0 +1,10 @@
+:root{
+   --very-dark:#161A1D;
+   --dark-bg:hsl(200, 100%, 75%);
+   --light-bg:hsl(200, 100%, 30%);
+   --very-light:#ffffff;
+   --mode-bg:#374151;
+   --select-bg: #3B3B3B;
+   --index-bg: #D1D5DB;
+   --cart-info: #E5E7E5;
+}

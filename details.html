@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Details</title>
+   <link rel="shortcut icon" href="assets/images/39717099.png" type="image/x-icon">
+   <link rel="stylesheet" href="assets/css/styles.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Allan&family=Anton&family=Baskervville&family=Bebas+Neue&family=DM+Serif+Display&family=IBM+Plex+Sans&family=Inter&family=Kumbh+Sans&family=Libre+Baskerville&family=Lora&family=Merriweather&family=Metal+Mania&family=Nosifer&family=Nunito+Sans:opsz@6..12&family=Oswald&family=Playfair+Display&family=Poppins&family=Raleway&family=Roboto&family=Space+Mono&family=Ubuntu&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+   <nav class="navbar">
+      <form class="navbar__form">
+         <h1>Get the weekly newsletter.</h1>
+         <div class="navbar__form-sign">
+            <input type="text" name="text" id="titleSearch" placeholder="Write username..." class="navbar__form-input"
+               autocomplete="off">
+            <input type="email" name="email" id="emailSearch" placeholder="Write email" class="navbar__form-input"
+               autocomplete="off">
+            <button type="submit" class="searchBtn">Sign Up</button>
+         </div>
+      </form>
+   </nav>
+   <div class="navbar__container  container">
+      <a href="index.html" class="navbar__title">Web Dev Simplified Blog</a>
+      <div class="navbar__change">
+         <button class="navbar__btn">Preferences</button>
+         <div class="navbar__selects">
+            <div class="navbar__options options--theme">
+               <span class="navbar__options-theme">Theme</span>
+               <ul id="theme" class="options__lists">
+                  <li class="options__list options__list--dark">Dark</li>
+                  <li class="options__list options__list--light">Light</li>
+               </ul>
+            </div>
+
+            <div class="navbar__options options--width">
+               <span class="navbar__options-width">Reading Width</span>
+               <ul id="width" class="width__lists">
+                  <li class="width-list">Narrow</li>
+                  <li class="width-list">Default</li>
+                  <li class="width-list">Wide</li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+   <main class="main container main--details">
+      <div class="main__container">
+         <p class="main__cart-title">title</p>
+         <span class="main__cart-date">december 12 2024</span>
+         <div class="main__cart-names">
+            <span class="main__cart-name">targets</span>
+         </div>
+         <div class="main__cart-url">
+            <a class="url-facebook cart-link">
+               <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a class="url-twitter cart-link">
+               <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a class="url-linkedin cart-link">
+               <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a class="url-reddit cart-link">
+               <i class="fa-brands fa-reddit-alien"></i>
+            </a>
+            <a class="url-whatsapp cart-link">
+               <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a class="url-envelope cart-link">
+               <i class="fa-regular fa-envelope"></i>
+            </a>
+            <a class="url-share cart-link">
+               <i class="fa-solid fa-share-from-square"></i>
+            </a>
+         </div>
+      </div>
+      <p class="main__cart-about">One of the most annoying things to deal with in CSS is margins. They have weird
+         interactions with collapsing
+         and more often than not you end up with extra spacing where you don’t want it. This becomes an even larger pain
+         when moving to a component based design system since now you need to ensure your components all work well with
+         each other without leaking styles outside themselves.
+      </p>
+      <p class="main__cart-trim">
+         The new <span>margin-trim</span> property helps solve part of this problem by making it very easy to remove
+         extra margin from the children of an element.
+      </p>
+      <h2 class="main__cart-problem">The Problem</h2>
+      <p class="main__cart-subtitle">Let’s say we have a simple card with a list of children inside it.</p>
+   </main>
+</body>
+<script src="assets/js/main.js"></script>
+
+</html>

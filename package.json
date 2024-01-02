@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "json-server": "^0.17.4"
+  },
+  "main": "/assets/js/main.js",
+  "scripts": {
+    "start": "json-server --watch ./database/db.json"
+  }
+}

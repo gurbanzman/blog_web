@@ -1,0 +1,106 @@
+{
+  "variable": [
+    {
+      "name": [
+        "CSS",
+        "HTML",
+        "JavaScript"
+      ],
+      "count": 1,
+      "id": 1
+    },
+    {
+      "name": [
+        "JavaScript",
+        "React",
+        "HTML"
+      ],
+      "count": 1,
+      "id": 2
+    },
+    {
+      "name": [
+        "JavaScript"
+      ],
+      "count": 1,
+      "id": 3
+    }
+  ],
+  "variableAbout": [
+    {
+      "title": "Why Use The HTML Template TWhy Use The HTML Template Tag?ag?",
+      "info": "An in depth explanation of why you should be using the template tag.",
+      "targets": [
+        "JavaScript",
+        "HTML"
+      ],
+      "date": "2023-12-12T23:25:32.159Z",
+      "id": 1,
+      "innerData": {
+        "info": "One of the most annoying things to deal with in CSS is margins. They have weird interactions with collapsing and more often than not you end up with extra spacing where you don’t want it. This becomes an even larger pain when moving to a component based design system since now you need to ensure your components all work well with each other without leaking styles outside themselves.",
+        "body": "The new margin-trim property helps solve part of this problem by making it very easy to remove extra margin from the children of an element."
+      }
+    },
+    {
+      "title": "Speed Up Your Site Instantly With Lazy Loaded Images - Advanced Lazy Loading",
+      "info": "Lazy loading images is one of the easiest ways to speed up your site, but there are a few advanced techniques you can use to make your lazy loading even better.\n\n",
+      "targets": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "date": "2023-12-12T23:43:42.474Z",
+      "id": 2,
+      "innerData": {
+        "info": "One of the most annoying things to deal with in CSS is margins. They have weird interactions with collapsing and more often than not you end up with extra spacing where you don’t want it. This becomes an even larger pain when moving to a component based design system since now you need to ensure your components all work well with each other without leaking styles outside themselves.",
+        "body": "The new margin-trim property helps solve part of this problem by making it very easy to remove extra margin from the children of an element."
+      }
+    },
+    {
+      "title": "Dynamic Expandable Content (Read More Buttons)",
+      "info": "Multiline text overflow fading and dynamic expand/collapse buttons are difficult to create so in this article I show you a simple way to do both.",
+      "targets": [
+        "CSS",
+        "HTML",
+        "JavaScript"
+      ],
+      "date": "2023-12-13T00:00:57.823Z",
+      "id": 3,
+      "innerData": {
+        "info": "One of the most annoying things to deal with in CSS is margins. They have weird interactions with collapsing and more often than not you end up with extra spacing where you don’t want it. This becomes an even larger pain when moving to a component based design system since now you need to ensure your components all work well with each other without leaking styles outside themselves.",
+        "body": "The new margin-trim property helps solve part of this problem by making it very easy to remove extra margin from the children of an element."
+      }
+    },
+    {
+      "title": "sdwqdasdas",
+      "info": "sadsadasdasdasdasdas",
+      "targets": [
+        "JavaScript",
+        "React",
+        "HTML"
+      ],
+      "date": "2023-12-31T04:10:09.355Z",
+      "id": 4
+    },
+    {
+      "title": "Junior",
+      "info": "asdasdasdasdasdasdas",
+      "targets": [
+        "JavaScript"
+      ],
+      "date": "2023-12-31T04:15:31.769Z",
+      "id": 5
+    },
+    {
+      "title": "sadsdasd",
+      "info": "asdsadsadasdasdasdasd",
+      "targets": [
+        "JavaScript",
+        "React",
+        "HTML"
+      ],
+      "date": "2024-01-02T09:23:11.091Z",
+      "id": 6
+    }
+  ]
+}
